@@ -256,6 +256,7 @@ a{
 
 .welcome-greets h3,
 .welcome-greets h2{
+    padding: 12px;
     font-family: Ubuntu,sans-serif;
     width: 95%;
     margin: 0 auto;
@@ -465,9 +466,7 @@ footer{
     flex-direction: column;
     justify-content: space-between;
 } 
-.col-2,.col-3,.col-4{
-    /* width: 23%; */
-}
+
 .top-part{
     padding: 15px 0;
 }  
@@ -604,6 +603,7 @@ footer{
     .moment-grid, .contact-detail, .footer-elements, .newsletter {
       flex-direction: column;
       text-align: center;
+      /* width: 80%; */
     }
   
     .left, .right-column, .left-section, .right-section,
@@ -625,8 +625,9 @@ footer{
   
     #nav-btn, .hero-btn, #moment-btn, #book-btn, #contact-btn,
     .newsletter-right-col button, .second-part button {
-      width: 100%;
-      margin: 10px 0;
+      width: 80%;
+      margin: 10px ;
+      
     }
   
     .copyright ul {
@@ -672,6 +673,7 @@ footer{
       font-size: 14px;
       padding: 0 10px;
     }
+    
   
     .hero-btn,
     #nav-btn,
@@ -682,6 +684,7 @@ footer{
     .second-part button {
       font-size: 14px;
       padding: 10px;
+      width: 45%;
     }
   
     .right-column img,
@@ -702,7 +705,24 @@ footer{
     .newsletter-right-col {
       gap: 10px;
     }
-  
+    #features-header{
+      
+      width: 90%;
+    }
+    .welcome-intro{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      margin: 0 auto;
+      
+    }
+    .welcome-greets{
+      display: flex;
+      flex-direction: column;
+    
+
+  }
+   
     .features h2,
     .moment h2,
     .contact h2 {
@@ -721,6 +741,11 @@ footer{
     .copyright p,
     .copyright ul li a {
       font-size: 12px;
+    }
+
+    .col-1,.col-2{
+      width: 90%;
+      margin: 0 auto;
     }
   }
 
