@@ -694,7 +694,7 @@ footer{
     .right-column img,
     .moment-container img,
     .contact-image img {
-      width: 95%;
+      width: 80%;
       height: auto;
       margin: auto;
     }
