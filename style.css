@@ -673,7 +673,11 @@ footer{
       font-size: 14px;
       padding: 0 10px;
     }
-    
+    .welcome-description p{
+      width: 95%;
+      font-size: 20px;
+      margin: 0 auto;
+    }
   
     .hero-btn,
     #nav-btn,
@@ -690,11 +694,14 @@ footer{
     .right-column img,
     .moment-container img,
     .contact-image img {
-      width: 100%;
+      width: 95%;
       height: auto;
       margin: auto;
     }
-  
+    .moment-container h3,.moment-container p{
+      width: 80%;
+      margin: 0 auto;
+    }
     .newsletter-right-col input,
     .second-part input {
       font-size: 14px;
